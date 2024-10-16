@@ -74,5 +74,10 @@ int main()
         cout << "\n1. Accept\n2. Display\n3. Deposit\n4. Withdraw\n5. Check Balance\n6. Exit\n";
         cout << "Enter your choice: ";
         cin >> ch;
+        switch(ch)
+            {
+                case 1:
+                
+            }
     }
 }
