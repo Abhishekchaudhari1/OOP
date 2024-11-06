@@ -39,7 +39,6 @@ int main()
     int ch, n;
     cout << "Enter no. of array elements : ";
     cin >> n;
-    // SelSort(10 , 5);
     int a[10];
     float b[10];
     char c[10];
