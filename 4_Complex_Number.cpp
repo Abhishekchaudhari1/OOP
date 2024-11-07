@@ -71,13 +71,35 @@ int main()
     int ch;
     while (ch != 7)
     {
-        cout << "\n1. Accept\n2. Display\n3. Deposit\n4. Withdraw\n5. Check Balance\n6. Exit\n";
+        cout << "\n1. Accept a complex number\n2. Display a complex number\n3. Add two complex numbers\n4. Subtract two complex numbers\n5. Multiply two complex numbers\n6. Division of two complex numbers\n7. Exit\n";
         cout << "Enter your choice: ";
         cin >> ch;
         switch(ch)
-            {
-                case 1:
-                
-            }
+        {
+            case 1:
+                C1.accept();
+                C2.accept();
+                break;
+            case 2:
+                C1.display();
+                C2.display();
+                break;
+            case 3:            
+                C1+c2;
+                break;
+            case 4:
+                C1-C2;
+                break;
+            case 5:
+                C1*C2;
+                break;
+            case 6:
+                C1/C2;
+                break;
+            case 7:
+                cout <<"\nExiting...\n";
+                break;
+        }
     }
+    return 0;
 }
